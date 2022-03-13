@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students data"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="ID"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="name"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRST"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="address"
+        android:layout_margin="5dp"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/add"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRST 0123456789"/>
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="phone"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/phone"
+        android:inputType="phone"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+    <Button android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add data"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <Button android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show data"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+
+        />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_gravity="center"-->
+<!--        >-->
+
+<!--    <Button android:id="@+id/update"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Update data"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+
+<!--        />-->
+<!--    <Button android:id="@+id/delete"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="delete data"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+
+<!--        />-->
+<!--    </LinearLayout>-->
+
+
+
+
+
+</LinearLayout>
